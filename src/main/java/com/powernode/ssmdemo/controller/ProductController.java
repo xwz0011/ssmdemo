@@ -1,7 +1,7 @@
 package com.powernode.ssmdemo.controller;
 
-import com.powernode.ssm.bean.Product;
-import com.powernode.ssm.service.ProductService;
+import com.powernode.ssmdemo.bean.Product;
+import com.powernode.ssmdemo.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -37,7 +37,7 @@ public class ProductController {
 
         List<Product> result = service.findProductsByName(name);
 
-        model.addAttribute("result", result);
+        model.addAttribute("allProducts", result);
         model.addAttribute("name", name);
         return "/jsp/result.jsp";
     }

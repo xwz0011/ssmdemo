@@ -1,6 +1,6 @@
 package com.powernode.ssmdemo.mapper;
 
-import com.powernode.ssm.bean.Product;
+import com.powernode.ssmdemo.bean.Product;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.ArrayList;

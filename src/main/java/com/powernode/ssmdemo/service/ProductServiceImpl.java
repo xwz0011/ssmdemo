@@ -1,7 +1,8 @@
 package com.powernode.ssmdemo.service;
 
-import com.powernode.ssm.bean.Product;
-import com.powernode.ssm.mapper.ProductMapper;
+
+import com.powernode.ssmdemo.bean.Product;
+import com.powernode.ssmdemo.mapper.ProductMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

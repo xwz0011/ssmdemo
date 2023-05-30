@@ -1,6 +1,7 @@
 package com.powernode.ssmdemo.service;
 
-import com.powernode.ssm.bean.Product;
+
+import com.powernode.ssmdemo.bean.Product;
 
 import java.util.ArrayList;
 
